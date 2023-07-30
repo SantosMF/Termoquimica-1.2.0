@@ -5,9 +5,9 @@ Este código foi desenvolvido para calcular funções termodinâmicas. Para conf
                      
 Isso vai verificar se as depêndencias do  programa estão satisfeitas, caso não esteja, vai tentar instalá-las automaticamente. Em caso de falha, faça manualmente um por um,  nesta ordem.
             
-                     sudo apt install python3-pip python3-pyqt5 -y
+                     sudo apt install python3-pip qt6-base-dev -y
                      python3 -m pip install numpy
-                     python3 -m pip install pyqt5
+                     python3 -m pip install pyqt6
                      chmod u+x termoquimica.py
                      sudo ln -sf $PWD/termoquimica.py /usr/bin/termoquimica
                      
