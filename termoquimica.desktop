@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Termoquimica
+Exec=bash -c "/home/marcio/Programas/Termoquimica-1.2/main.py -url %U"
+Icon=/home/marcio/Programas/Termoquimica-1.2/temps/ico2.png
+Type=Application
+Terminal=false
+Categories=Science;Chemistry;Physics;Education;
+MimeType=outhers
+X-GNOME-SingleWindow=true
+Name[pt_BR]=termoquimica
+Comment=Program para calcular funções termodinâmicas
